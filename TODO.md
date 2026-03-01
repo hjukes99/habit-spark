@@ -1,7 +1,7 @@
 # TODO (next 24–48h)
 
 ## P0
-1. [ ] Implement data model for habits and daily check-ins.
+1. [x] Implement data model for habits and daily check-ins.
 2. [ ] Add commands/API handlers to create/list habits.
 3. [ ] Add command/API handler to mark habit complete for a date.
 4. [ ] Implement streak calculation logic per habit.
