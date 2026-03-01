@@ -1,0 +1,17 @@
+# TODO (next 24–48h)
+
+## P0
+1. [ ] Implement data model for habits and daily check-ins.
+2. [ ] Add commands/API handlers to create/list habits.
+3. [ ] Add command/API handler to mark habit complete for a date.
+4. [ ] Implement streak calculation logic per habit.
+5. [ ] Add tests for streak calculations and completion edge cases.
+
+## P1
+6. [ ] Add validation and friendly error messages for invalid input.
+7. [ ] Add seed/demo data command for quick local demo.
+8. [ ] Improve output formatting for today summary.
+9. [ ] Add lightweight config for max habits and storage path.
+
+## P2
+10. [ ] Add optional Docker Compose for one-command local run.
