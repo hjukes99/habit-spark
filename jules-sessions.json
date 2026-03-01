@@ -29,10 +29,13 @@
     },
     {
       "id": "13851549697427284259",
-      "task": "Codex Lab: habit-spark — complete TODO item 'Implement data model for habits and daily check-ins.' and keep tests passing.",
-      "status": "Planning",
+      "task": "Codex Lab: habit-spark \u2014 complete TODO item 'Implement data model for habits and daily check-ins.' and keep tests passing.",
+      "status": "Applied",
       "createdAt": "2026-03-01T16:38:00-06:00",
-      "url": "https://jules.google.com/session/13851549697427284259"
+      "url": "https://jules.google.com/session/13851549697427284259",
+      "applied": true,
+      "appliedAt": "2026-03-01T17:37:34-06:00",
+      "validation": "npm test pass"
     }
   ]
 }
