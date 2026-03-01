@@ -18,3 +18,4 @@
 11. [ ] Resolve Jules patch-apply conflict for session `1174325554540613655` (existing `.gitignore`/`package-lock.json` and trailing whitespace), then re-apply and run tests.
 12. [ ] Reconcile/apply Jules session `1174325554540613655` patch manually (resolve `.gitignore`/`package-lock.json` conflicts and trailing whitespace), then run tests.
 13. [ ] Resolve/apply Jules session `1174325554540613655` via follow-up session `2039864391032884795`; rerun tests and commit only after passing.
+14. [ ] Fix/apply Jules session `1174325554540613655` patch conflict and re-run tests before commit.
