@@ -35,3 +35,17 @@
 - Error: patch apply failed (trailing whitespace plus existing `.gitignore` and `package-lock.json`).
 - Action: stopped work on this app for this run per guardrail.
 - Tests/build: not run (patch not applied).
+
+## 2026-03-01 07:50 CST
+- Orchestrator: checked Jules sessions for `hjukes99/habit-spark`; highest-priority unapplied `Completed` session remains `1174325554540613655`.
+- Attempted apply with `jules remote pull --session 1174325554540613655 --apply`.
+- Error: patch apply failed (`.gitignore` and `package-lock.json` already exist in working directory; patch reported trailing whitespace).
+- Action: stopped work on this app for this run per guardrail.
+- Tests/build: not run (patch not applied).
+
+## 2026-03-01 08:52 CST
+- Orchestrator: checked Jules sessions for `hjukes99/habit-spark`; highest-priority unapplied `Completed` session remains `1174325554540613655`.
+- Attempted apply with `jules remote pull --session 1174325554540613655 --apply`.
+- Error: patch apply failed (trailing whitespace plus existing `.gitignore` and `package-lock.json`).
+- Action: stopped pull/apply flow for this app per guardrail; no tests/build run.
+- Spawned follow-up Jules session `2039864391032884795` to repair fallout while preserving behavior.
