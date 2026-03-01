@@ -15,3 +15,4 @@
 
 ## P2
 10. [ ] Add optional Docker Compose for one-command local run.
+11. [ ] Resolve Jules patch-apply conflict for session `1174325554540613655` (existing `.gitignore`/`package-lock.json` and trailing whitespace), then re-apply and run tests.
